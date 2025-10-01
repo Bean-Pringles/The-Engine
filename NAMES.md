@@ -1,26 +1,26 @@
-Rachet:
+## Rachet:
 The compiler
 
-Spoke:
+## Spoke:
 The interpreter 
 
-Gears:
+## Gears:
 Rachet's command line tool
 
-Socket:
+## Socket:
 The Text Editors (TXT editor and Spoke Editor)
 
-Diesel:
+## Diesel:
 The Packet Managers (The Axle Manager, Spoke Manager, and the Axle App's manager)
 
-Axle:
+## Axle:
 The Shell (Also known as Spoke-Shell)
 
-Spring:
+## Spring:
 The browser
 
-Valve:
+## Valve:
 The Homemade Git
 
-Piston:
+## Piston:
 The VS Code Extension for Rachet
