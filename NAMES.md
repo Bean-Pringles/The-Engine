@@ -1,5 +1,5 @@
 Rachet:
-The compilet
+The compiler
 
 Spoke:
 The interpreter 
