@@ -1,5 +1,10 @@
 ## Rachet:
+
+Forge:
 v1.1.0.1
+
+Core:
+v1.1
 
 ## Spoke:
 v1.5.1.0
