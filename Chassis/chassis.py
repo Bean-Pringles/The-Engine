@@ -42,7 +42,7 @@ else:
     language = args[1]
     new_project = args[2]
 
-    source_dir = os.path.join(script_dir, language)
+    source_dir = os.path.join(script_dir, "plates", language)
     dest_dir = os.path.join(os.getcwd(), new_project)
 
     try:
