@@ -1,0 +1,1 @@
+* GAMS/AMPL/ AIMMS code
