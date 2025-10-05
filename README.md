@@ -21,3 +21,8 @@ https://github.com/Bean-Pringles/cog-os
 Everything in here is licensed under the license of the repository it came from. 
 
 For example, the rachet folder would be licensed under the license of the rachet repository. 
+
+## Disclaimer
+
+Do not move any of the files or there is a chance that things will break,
+just keep the directory how it is.
