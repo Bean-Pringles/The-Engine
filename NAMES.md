@@ -50,11 +50,12 @@ https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Spoke-Shell/shellCom
 
 ## Piston:
 The VS Code Extension for Rachet
-
-## Flywheel
-The Command Wrapper
 https://github.com/Bean-Pringles/The-Engine/tree/main/rachet/VSExtension
 
 ## Magnet
 The torrent clone
 https://github.com/Bean-Pringles/The-Engine/tree/main/rachet/magnet
+
+## Flywheel
+The Command Wrapper
+https://github.com/Bean-Pringles/The-Engine/blob/main/flywheel.py
