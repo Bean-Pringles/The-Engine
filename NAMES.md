@@ -59,3 +59,7 @@ https://github.com/Bean-Pringles/The-Engine/tree/main/rachet/magnet
 ## Flywheel
 The Command Wrapper
 https://github.com/Bean-Pringles/The-Engine/blob/main/flywheel.py
+
+## Chassis
+The boilerplate creator
+https://github.com/Bean-Pringles/The-Engine/blob/main/Chassis/chassis.py
