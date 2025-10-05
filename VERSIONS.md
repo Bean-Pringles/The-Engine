@@ -43,6 +43,9 @@ v0.7.8.0
 ## Piston: 
 v0.1.1
 
+## Magnet
+v0.5.0
+
 ## Version Naming;
 
 # Version 0.1 to 1.0
