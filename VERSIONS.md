@@ -49,6 +49,9 @@ v0.5.0
 ## Flywheel
 v0.3.2
 
+## Chassis
+v0.4.0.0
+
 ## Version Naming;
 
 # Version 0.1 to 1.0
