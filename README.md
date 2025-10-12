@@ -20,7 +20,7 @@ https://github.com/Bean-Pringles/spoke
 
 https://github.com/Bean-Pringles/cog-os
 
-Please note that these repos have been discontinued and are only supported here
+Please note that these repos have been discontinued and are only supported here.
 
 ## License 
 
@@ -32,3 +32,5 @@ For example, the rachet folder would be licensed under the license of the rachet
 
 Do not move any of the files or there is a chance that things will break,
 just keep the directory how it is.
+
+If it ever breaks, it probably works on my machine.
