@@ -1,6 +1,5 @@
 ## Rachet:
-The compiler
-https://github.com/Bean-Pringles/The-Engine/tree/main/rachet
+https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/rachet/rachet/rachet
 
 Forge:
 The nightly release of rachet
@@ -10,60 +9,59 @@ The stable release of rachet
 
 ## Spoke:
 The interpreter 
-https://github.com/Bean-Pringles/The-Engine/tree/main/spoke
+https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/spoke/Interpreter
 
 ## Gears:
 Rachet's command line tool
-https://github.com/Bean-Pringles/The-Engine/tree/main/rachet/rachet
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/rachet/rachet/setup.py
 
 ## Socket:
 The Text Editors (TXT editor and Spoke Editor)
 Txt Editor:
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Spoke-Shell/apps/notes/notes.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Spoke-Shell/apps/notes/notes.py
 
 Spoke Editor:
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Interpreter/textEditor.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Interpreter/textEditor.py
 
 ## Diesel:
 The Packet Managers (The Axle Manager, Spoke Manager, and the Axle App's manager)
 
 Axle Manager:
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Spoke-Shell/shellCommands/install.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Spoke-Shell/shellCommands/install.py
 
 Spoke Manager:
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Interpreter/commands/cmd_import.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Interpreter/commands/cmd_import.py
 
 Axle App's Manager:
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Spoke-Shell/shellCommands/apps.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Spoke-Shell/shellCommands/apps.py
 
 ## Axle:
 The Shell (Also known as Spoke-Shell)
-https://github.com/Bean-Pringles/The-Engine/tree/main/spoke/Spoke-Shell
+(https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/spoke/Spoke-Shell
 
 ## Spring:
 The browser
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Spoke-Shell/apps/browser/browser.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Spoke-Shell/apps/browser/browser.py
 
 ## Valve:
-The Homemade Git
-https://github.com/Bean-Pringles/The-Engine/blob/main/spoke/Spoke-Shell/shellCommands/git.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/spoke/Spoke-Shell/shellCommands/git.py
 
 ## Piston:
 The VS Code Extension for Rachet
-https://github.com/Bean-Pringles/The-Engine/tree/main/rachet/VSExtension
+https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/rachet/VSExtension
 
 ## Magnet
 The torrent clone
-https://github.com/Bean-Pringles/The-Engine/tree/main/rachet/magnet
+https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/rachet/Magnet
 
 ## Flywheel
 The Command Wrapper
-https://github.com/Bean-Pringles/The-Engine/blob/main/flywheel.py
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/flywheel.py
 
 ## Chassis
 The boilerplate creator
-https://github.com/Bean-Pringles/The-Engine/blob/main/Chassis/chassis.py
+https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/Chassis
 
 ## Crank
-The remote builder
-https://github.com/Bean-Pringles/The-Engine/tree/main/crank
+The build machine for rachet
+https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/Crank
