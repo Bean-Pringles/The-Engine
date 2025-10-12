@@ -1,3 +1,0 @@
-$
-cdr = cd C:\Users\pridg\Downloads\GitRecoverTest
-cds = cd ~\Downloads\spoke\Spoke-Shell
