@@ -63,3 +63,7 @@ https://github.com/Bean-Pringles/The-Engine/blob/main/flywheel.py
 ## Chassis
 The boilerplate creator
 https://github.com/Bean-Pringles/The-Engine/blob/main/Chassis/chassis.py
+
+## Crank
+The remote builder
+https://github.com/Bean-Pringles/The-Engine/tree/main/crank
