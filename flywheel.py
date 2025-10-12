@@ -54,7 +54,10 @@ Flywheel commands:
     shell
     browser
     valve
-    magnet    
+    magnet 
+    connect
+    send   
+    clear
               """)
         sys.exit(1)
 
@@ -66,6 +69,18 @@ Flywheel commands:
     # ----------------------------------------
     if cmd in ("compile", "compress", "uncompress", "transform", "fetch"):
         gearsCmds(current_dir, cmd, args_full)
+
+    
+    # ----------------------------------------
+    # Crank commands
+    # ----------------------------------------
+    elif cmd in ("connect", "send", "clear"):
+        target_script = os.path.join(current_dir, "Crank", "crank.py")
+        if not os.path.exists(target_script):
+            print(f"[!] crank.py not found at {target_script}")
+            sys.exit(1)
+        # Prepend the command itself so gears.py sees it
+        subprocess.run([sys.executable, "-u", target_script, cmd, *args_full])
 
     # ----------------------------------------
     # Spoke commands

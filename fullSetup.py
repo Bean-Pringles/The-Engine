@@ -31,8 +31,8 @@ def run(path):
     else:
         print(f"[+] Script completed successfully\n")
 
-# Example usage
 run(r"setup.py")
 run(r"Chassis/setup.py")
+run(r"Crank/setup.py")
 run(r"rachet/rachet/setup.py")
 run(r"spoke/Spoke-Shell/setup.py")
