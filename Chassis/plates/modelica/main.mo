@@ -1,2 +1,0 @@
-model Main
-end Main;

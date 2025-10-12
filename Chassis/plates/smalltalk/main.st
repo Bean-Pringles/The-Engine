@@ -1,1 +1,0 @@
-Smalltalk := Object subclass: #Main []

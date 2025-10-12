@@ -1,4 +1,0 @@
-def main
-end
-
-main
