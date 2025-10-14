@@ -43,6 +43,7 @@ def main():
 Flywheel commands:
 
     compile
+    interpret
     compress
     uncompress
     transform
@@ -71,6 +72,8 @@ Flywheel commands:
     if cmd in ("compile", "compress", "uncompress", "transform", "fetch"):
         gearsCmds(current_dir, cmd, args_full)
 
+    if cmd == "interpret":
+        runPythonScript(os.path.join(current_dir, "rachet", "rachet", "rachet", "interpreter.py"), args_full)
     
     # ----------------------------------------
     # Crank commands
