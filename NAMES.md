@@ -2,10 +2,10 @@
 https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/rachet/rachet/rachet
 
 Forge:
-The nightly release of rachet
+The Interpreter of Rachet
 
 Core:
-The stable release of rachet
+The compiler of Rachet
 
 ## Spoke:
 The interpreter 
