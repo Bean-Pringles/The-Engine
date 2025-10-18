@@ -38,3 +38,7 @@ Do not move any of the files or there is a chance that things will break,
 just keep the directory how it is.
 
 If it ever breaks, it probably works on my machine.
+
+## Milestones
+
+We reached 100 commits!
