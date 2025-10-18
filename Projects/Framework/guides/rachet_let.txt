@@ -1,0 +1,21 @@
+Let
+
+The let command creates a varible.
+This varible can be i32, float, or string.
+Let can do math and string operators
+
+use crate::iso
+
+# fn main() {
+#     let x = 5;
+#     let y = 5 * x;
+#     let z = y * 4;
+#
+#     print(z); # Prints 100
+#
+#     z = 101;
+#
+#     print(z); # Prints 101
+# }
+
+When you edit a varibles value, it doesn't require let.

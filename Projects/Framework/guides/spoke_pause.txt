@@ -1,0 +1,8 @@
+Pause
+
+Pause takes the arguements of silent or loud,
+and waits until you press a key to continue.
+
+# print(Paused)
+# pause loud # Prints "Press Enter to continue"
+# pause silent # Waits for you to press a key without printing

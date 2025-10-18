@@ -1,0 +1,14 @@
+Os 
+
+The os command takes the arguement shutdown,
+which shutsdown the operating system.
+
+# use crate::iso
+#
+# fn main() {
+#   print("OS shutsdown in 5 secounds");
+#    
+#   pause(5000); # Waits 5 secounds
+#    
+#   os(shutdown); # Stops the OS
+# }

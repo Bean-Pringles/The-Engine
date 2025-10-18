@@ -1,0 +1,82 @@
+Varibles Commands
+
+Varibles come in lists, i32, and strings.
+They can be promoted at runtime
+and is very similar to python syntax.
+
+----- Let ------
+
+Varibles are made using the let command.
+They can either have a set value,
+or can be based off other varibles.
+
+# let x = 3
+# let y = x * 5
+# let z = ["3", "Hello", "World"]
+# let a = "Hello, World!"
+#
+# print z # Prints 3, Hello, and World
+# print a # Prints "Hello, World!"
+
+----- Inc ------
+
+Inc takes 2 arguments, varible name and how much to increase by.
+It increases the given varible by the given number,
+a shorthand for the repetive task.
+
+# let x = 5
+# inc x 4
+# print x # Prints 9
+
+----- Dec -----
+
+Dec is almost the same as inc, 
+but it decreases it by the given amount instead of increasing.
+
+# let x = 5
+# dec x 4
+# print x # Prints 1
+
+----- Compare -----
+
+Compare takes the input of two varibles and prints the result.
+It can be equal, greater than, or less than.
+
+# let x = 3
+# let y = 4
+# compare x y # Prints less than
+
+----- Delete -----
+
+The delete command deletes the specified varible.
+The varible can no longer be used after being deleted.
+
+# let x = 5
+# delete x
+# print x # Errors out.
+
+----- Swap -----
+
+Swap swaps the value of the two specified varibles.
+
+# let x = 3
+# let y = 4
+# swap x y
+# print x # Prints 4
+# print y # Prints 3
+
+----- Toggle -----
+
+Toggle toggles a varible between 0/1 or true/false.
+If the varible is equal to 1, it changes it to 0,
+smae with the reverse.
+If the varible is true it changes it to false, and vice versa.
+
+# let x = 1
+# let y = "false"
+#
+# toggle x
+# toggle y
+#
+# print x # Prints 0
+# print y # Prints true

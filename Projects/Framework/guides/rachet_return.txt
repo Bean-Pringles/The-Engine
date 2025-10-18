@@ -1,0 +1,20 @@
+Return
+
+The return command is used in Rachet to return
+a value of a function. If that function was called 
+as an assignment to a varible, the return function
+assigns the chosen arguement to the varible, 
+much like any other launguage's return.
+
+# fn main() {
+#     ley y = 5;
+#     let x = testFunc(y);
+# 
+#     print(x); # Prints 10
+# }
+# 
+# fn testFunc(val1) {
+#     let z = val1 * 2;
+# 
+#     return z; 
+# }

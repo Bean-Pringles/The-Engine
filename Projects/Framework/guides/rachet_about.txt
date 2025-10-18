@@ -1,0 +1,20 @@
+About Rachet
+
+Rachet is a compiler based programming launguage 
+designed for school students to design thier custom
+operating system easily and without the normal rigors.
+
+Rachet has a high level synatx similar to python
+and a bit like rust. This simple synatx is essential
+to hooking students onto OS Dev.
+
+Rachet is an easy to use, plug and play launguage that
+has almost limitless possibilities.
+
+Rachet was also made by an indie developer seeking a way
+to easily reiterate on their rust operating system (Cog OS).
+
+Have fun, get thinking, and let's see what you can make!
+
+    - Bean Pringles >:D 
+      https://github.com/Bean-Pringles

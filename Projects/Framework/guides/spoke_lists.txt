@@ -1,0 +1,110 @@
+List & String Commands
+
+Lists are stored much the same as python:
+# let myList = ["Hello", ",", "World", "!"]
+
+----- Append -----
+
+To append to a list you specify the list and the value,
+in that order. This adds the specified value to the end 
+of the list.
+
+# list testTist = ["1", "2", "3"]
+# append testList "4"
+# print testList # Prints 1, 2, 3, and 4
+
+----- Index -----
+
+Index takes the arguements of list, value,
+and place to store the result. 
+The result is returned as an integer of the first index
+of the value's position.
+
+# list testList = ["1", "2", "3"]
+# contains testList "1" indexOf1
+# print indexOf1 # Prints 1
+
+----- Insert -----
+
+Takes the list, the index of the new token, and the value.
+Appends the new value in that posistion in the list
+
+# list testList = ["1", "2", "3"]
+# insert testList 2 "1.5"
+# print testList # Prints 1, 1.5, 2, 3
+
+----- Contains -----
+
+Returns a boolean value of whether the specified value is
+in the list. Takes the arguements of list, value,
+and varible to store the result.
+
+# list testList = ["1", "2", "3"]
+# contains testList "2" result
+# print result # Prints true
+
+----- Listlength -----
+
+Listlength finds the length of a list and assigns it 
+to a varible. It takes the input of list name 
+and an output varible.
+
+# list testList = ["1", "2", "3"]
+# length testList result
+# print result # Prints 3
+
+----- Length -----
+
+Length finds the length of a varible and either prints it,
+or assigns it to a varible. It takes the input of
+list name, loud or silen, and an output varible.
+
+# let testList = "Hello"
+# length testList silent result
+# print result # Prints 3
+
+----- List -----
+
+Creates a list
+
+# list testList = ["1", "2", "3"]
+
+----- Listclear -----
+
+Clears a list of all values
+
+# list testList = ["1", "2", "3"]
+# listclear testList
+# print testList # Prints nothing
+
+----- Prepend -----
+
+Adds a vale to the specified list at the start of the list.
+
+# list testList = ["1", "2", "3"]
+# prepend testList "0"
+# print testList # Prints 0, 1, 2, 3
+
+----- Remove -----
+
+Takes the list name and the index of the thing you want to remove.
+
+# list testList = ["1", "2", "3"]
+# remove testList 2
+# print testList # Prints 1, 3
+
+----- Reverse -----
+
+Reverse reverses the list in place.
+
+# list testList = ["1", "2", "3"]
+# reverse testList
+# print testList # Prints 3, 2, 1
+
+----- Sort -----
+
+Sorts a list, takes the arguements of the list.
+
+# list testList = [3, 1, 2]
+# sort testList
+# print testList # Prints 1, 2, 3

@@ -1,0 +1,13 @@
+Functions
+
+Functions are declared with "function"
+then followed by the function's name.
+
+Code in the function is determined by curly brackets.
+
+These function work much like python's functions.
+
+# function greet(name) {
+#     print (Hello)
+#     print name
+# }
