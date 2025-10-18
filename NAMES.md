@@ -69,3 +69,7 @@ https://github.com/Bean-Pringles/The-Engine/tree/main/Projects/Crank
 ## Torque
 The custom website
 https://pringlesbean.wixsite.com/home
+
+## Framework
+The man pages
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/Framework/framework.py
