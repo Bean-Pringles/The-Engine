@@ -60,6 +60,7 @@ Flywheel commands:
     send   
     clear
     server
+    man
               """)
         sys.exit(1)
 
@@ -124,6 +125,9 @@ Flywheel commands:
     # ----------------------------------------
     # Other commands
     # ----------------------------------------
+    elif cmd == "man":
+        runPythonScript(os.path.join(current_dir, "Framework", "framework.py"), args_full[1:])
+    
     elif cmd == "shell":
         runPythonScript(os.path.join(current_dir, "spoke", "Spoke-Shell", "shell.py"), args_full)
 
