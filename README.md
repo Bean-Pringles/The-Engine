@@ -22,6 +22,10 @@ https://github.com/Bean-Pringles/cog-os
 
 Please note that these repos have been discontinued and are only supported here.
 
+## Documnentation
+
+Most of the features of this ecosystem is documented in Framework.
+
 ## License 
 
 Everything in here is licensed under the license of the repository it came from. 
