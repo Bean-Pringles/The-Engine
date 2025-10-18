@@ -52,6 +52,12 @@ v0.3.2
 ## Chassis
 v0.4.0.0
 
+## Torque
+v0.5.0.0
+
+## Framework
+v0.7.0.0
+
 ## Version Naming;
 
 # Version 0.1 to 1.0
