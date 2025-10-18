@@ -10,9 +10,13 @@ def main(stdscr, initial_page=None):
     
     h, w = stdscr.getmaxyx()
 
+    # Get the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
     # Read commands from file
     try:
-        with open('cmds.txt', 'r', encoding='utf-8') as f:
+        cmds_path = os.path.join(script_dir, 'cmds.txt')
+        with open(cmds_path, 'r', encoding='utf-8') as f:
             raw_lines = [line.rstrip() for line in f]
     except FileNotFoundError:
         raw_lines = ["Error: cmds.txt not found"]
@@ -93,7 +97,7 @@ def main(stdscr, initial_page=None):
                     (item[2] and initial_page_lower in item[2].lower())):
                     selected_idx = i
                     # Auto-open the page
-                    file_path = os.path.join('guides', item[2])
+                    file_path = os.path.join(script_dir, 'guides', item[2])
                     if not file_path.endswith('.txt'):
                         file_path += '.txt'
                     try:
@@ -419,7 +423,7 @@ def main(stdscr, initial_page=None):
                 if display_items and selected_idx < len(display_items):
                     item_type, display_text, file_name, is_selectable, category = display_items[selected_idx]
                     if is_selectable and file_name:
-                        file_path = os.path.join('guides', file_name)
+                        file_path = os.path.join(script_dir, 'guides', file_name)
                         if not file_path.endswith('.txt'):
                             file_path += '.txt'
                         try:
@@ -450,7 +454,7 @@ def main(stdscr, initial_page=None):
                 if focus == "pages" and selected_idx < len(display_items):
                     item_type, display_text, file_name, is_selectable, category = display_items[selected_idx]
                     if is_selectable and file_name:
-                        file_path = os.path.join('guides', file_name)
+                        file_path = os.path.join(script_dir, 'guides', file_name)
                         if not file_path.endswith('.txt'):
                             file_path += '.txt'
                         try:
