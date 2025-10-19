@@ -8,6 +8,8 @@ Everything in this repository has been fully tested and guarenteed to work.
 
 Every so often I will be updating it with stable releases, meaning it will recieve updates, but not as much as the main repositories.
 
+Let's see what you can make!
+
 ## Setup:
 
 Run fullSetup.py which runs each setup script on it's own.
