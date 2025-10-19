@@ -140,6 +140,9 @@ Flywheel commands:
     elif cmd == "magnet":
         runExecutable(os.path.join(current_dir, "rachet", "Magnet", "magnet.exe"), args_full)
 
+    elif cmd == "n++":
+        runExecutable(os.path.join(current_dir, "Nim++", "preprocessor.exe"), args_full)
+
     else:
         print(f"[!] Unknown command: {cmd}")
 
