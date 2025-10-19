@@ -4,11 +4,18 @@ import json
 import sqlite3
 from datetime import datetime
 from urllib.parse import urlparse
-from PyQt5.QtWidgets import *
-from PyQt5.QtWebEngineWidgets import *
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-from PyQt5.QtWebEngineWidgets import QWebEngineDownloadItem
+
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLineEdit, 
+    QPushButton, QLabel, QTabWidget, QStatusBar, QProgressBar, QToolBar, QAction,
+    QFileDialog, QMessageBox, QMenu, QDialog, QDialogButtonBox, QListWidget, QListWidgetItem,
+    QFormLayout, QComboBox, QCheckBox, QInputDialog
+)
+from PyQt5.QtCore import Qt, QUrl, QTimer, QSize
+from PyQt5.QtGui import QIcon, QCursor
+
+# Updated imports for QtWebEngine
+from PyQt5.QtWebEngineWidgets import QWebEngineView, QWebEnginePage, QWebEngineProfile, QWebEngineDownloadItem
 
 class TabWidget(QWidget):
     """Custom tab widget with close button"""
