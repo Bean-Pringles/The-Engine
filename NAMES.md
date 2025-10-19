@@ -74,3 +74,7 @@ https://pringlesbean.wixsite.com/home
 ## Framework
 The man pages
 https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/Framework/framework.py
+
+## Nim++
+Refactors nims syntax to give it semicolins, curly brackets, and tabs
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/Nim%2B%2B/preprocessor.nim
