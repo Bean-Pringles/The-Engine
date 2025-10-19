@@ -32,6 +32,7 @@ def run(path):
         print(f"[+] Script completed successfully\n")
 
 run(r"setup.py")
+run(r"Nim++/setup.py")
 run(r"Chassis/setup.py")
 run(r"Crank/setup.py")
 run(r"rachet/rachet/setup.py")
