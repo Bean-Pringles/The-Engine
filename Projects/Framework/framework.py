@@ -10,8 +10,21 @@ def main(stdscr, initial_page=None):
     
     h, w = stdscr.getmaxyx()
 
-    # Get the directory where the script is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Get the directory where the script/executable is located
+    # For compiled executables, use the executable's directory instead
+    if getattr(sys, 'frozen', False):
+        # Running as compiled executable (PyInstaller, Nuitka, etc.)
+        script_dir = os.path.dirname(os.path.abspath(sys.executable))
+    elif '__compiled__' in globals():
+        # Nuitka compiled but not onefile
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    else:
+        # Running as script
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Fallback: if files not found, try current working directory
+    if not os.path.exists(os.path.join(script_dir, 'cmds.txt')):
+        script_dir = os.getcwd()
 
     # Read commands from file
     try:
@@ -82,6 +95,7 @@ def main(stdscr, initial_page=None):
     scroll_offset = 0
     about_text = []
     about_scroll = 0
+    about_horizontal_scroll = 0  # NEW: horizontal scroll offset
     focus = "pages"  # "pages" or "about"
 
     # Handle initial page selection if provided
@@ -104,12 +118,15 @@ def main(stdscr, initial_page=None):
                         with open(file_path, 'r', encoding='utf-8') as f:
                             about_text = f.read().splitlines()
                         about_scroll = 0
+                        about_horizontal_scroll = 0
                     except FileNotFoundError:
                         about_text = [f"No information found for {item[1]}", "", f"Expected file: {file_path}"]
                         about_scroll = 0
+                        about_horizontal_scroll = 0
                     except Exception as e:
                         about_text = [f"Error loading file: {str(e)}"]
                         about_scroll = 0
+                        about_horizontal_scroll = 0
                     break
 
     def filter_items_by_search(query):
@@ -213,7 +230,7 @@ def main(stdscr, initial_page=None):
                 elif search_active:
                     txt = f"Filtered: {search_query}"
                 else:
-                    txt = "Pages" if focus != "pages" else "Pages (active)"
+                    txt = "Pages" if focus != "pages" else "Pages (Press Tab to switch)"
                 txt_x = cmd_box_start_x + ((cmd_box_width // 2) - (len(txt) // 2))
                 if txt_x >= 0 and txt_x + len(txt) < w and cmd_box_start_y < h:
                     try:
@@ -245,7 +262,7 @@ def main(stdscr, initial_page=None):
                         except curses.error:
                             pass
                 
-                about_title = "About" if focus != "about" else "About (active)"
+                about_title = "About" if focus != "about" else "About (Press Tab to switch)"
                 about_title_x = about_box_start_x + ((about_box_width // 2) - (len(about_title) // 2))
                 if about_title_x >= 0 and about_title_x + len(about_title) < w and about_box_start_y < h:
                     try:
@@ -356,7 +373,7 @@ def main(stdscr, initial_page=None):
                     display_row += 1
                     actual_row += 1
 
-            # Display about text with proper scrolling
+            # Display about text with proper scrolling (both vertical and horizontal)
             if about_box_width > 10 and about_box_start_x + about_box_width < w:
                 visible_about_rows = max(1, about_box_height - 2)
                 
@@ -364,13 +381,29 @@ def main(stdscr, initial_page=None):
                 max_about_scroll = max(0, len(about_text) - visible_about_rows)
                 about_scroll = max(0, min(about_scroll, max_about_scroll))
                 
+                # Calculate max horizontal scroll based on longest line
+                max_line_length = 0
+                for line in about_text:
+                    if len(line) > max_line_length:
+                        max_line_length = len(line)
+                
+                max_about_width = about_box_width - 4
+                max_horizontal_scroll = max(0, max_line_length - max_about_width)
+                about_horizontal_scroll = max(0, min(about_horizontal_scroll, max_horizontal_scroll))
+                
                 for i in range(visible_about_rows):
                     line_idx = about_scroll + i
                     if line_idx >= len(about_text):
                         break
                     
                     line = about_text[line_idx]
-                    max_about_width = about_box_width - 4
+                    
+                    # Apply horizontal scroll
+                    if about_horizontal_scroll < len(line):
+                        line = line[about_horizontal_scroll:]
+                    else:
+                        line = ""
+                    
                     if len(line) > max_about_width:
                         line = line[:max_about_width]
                     
@@ -395,8 +428,15 @@ def main(stdscr, initial_page=None):
 
         key = stdscr.getch()
         
+        # Handle Ctrl key combinations (they produce specific key codes)
+        # Ctrl+left arrow or Ctrl+right arrow or plain Ctrl keys
+        if key == 9:  # Tab key (alternative to Ctrl for switching)
+            focus = "about" if focus == "pages" else "pages"
+        elif key == 20 or key == 16:  # Ctrl+T or Ctrl+P (common ctrl codes)
+            focus = "about" if focus == "pages" else "pages"
+        
         # Handle search mode input
-        if search_mode:
+        elif search_mode:
             if key == 27:  # ESC - exit search but keep filter active
                 search_mode = False
                 search_active = True if search_query else False
@@ -430,12 +470,15 @@ def main(stdscr, initial_page=None):
                             with open(file_path, 'r', encoding='utf-8') as f:
                                 about_text = f.read().splitlines()
                             about_scroll = 0
+                            about_horizontal_scroll = 0
                         except FileNotFoundError:
                             about_text = [f"No information found for {display_text}", "", f"Expected file: {file_path}"]
                             about_scroll = 0
+                            about_horizontal_scroll = 0
                         except Exception as e:
                             about_text = [f"Error loading file: {str(e)}"]
                             about_scroll = 0
+                            about_horizontal_scroll = 0
             elif 32 <= key <= 126:  # Printable characters
                 search_query += chr(key)
                 # Filter items
@@ -461,12 +504,15 @@ def main(stdscr, initial_page=None):
                             with open(file_path, 'r', encoding='utf-8') as f:
                                 about_text = f.read().splitlines()
                             about_scroll = 0
+                            about_horizontal_scroll = 0
                         except FileNotFoundError:
                             about_text = [f"No information found for {display_text}", "", f"Expected file: {file_path}"]
                             about_scroll = 0
+                            about_horizontal_scroll = 0
                         except Exception as e:
                             about_text = [f"Error loading file: {str(e)}"]
                             about_scroll = 0
+                            about_horizontal_scroll = 0
             elif key == curses.KEY_UP:
                 if focus == "pages":
                     # Find previous selectable item
@@ -498,9 +544,22 @@ def main(stdscr, initial_page=None):
                     max_about_scroll = max(0, len(about_text) - (about_box_height - 2))
                     about_scroll = min(max_about_scroll, about_scroll + (about_box_height - 2))
             elif key == curses.KEY_LEFT:
-                focus = "pages"
+                if focus == "about":
+                    # Scroll horizontally left
+                    if about_horizontal_scroll > 0:
+                        about_horizontal_scroll -= 1
             elif key == curses.KEY_RIGHT:
-                focus = "about"
+                if focus == "about":
+                    # Scroll horizontally right
+                    max_line_length = 0
+                    for line in about_text:
+                        if len(line) > max_line_length:
+                            max_line_length = len(line)
+                    
+                    max_about_width = about_box_width - 4
+                    max_horizontal_scroll = max(0, max_line_length - max_about_width)
+                    if about_horizontal_scroll < max_horizontal_scroll:
+                        about_horizontal_scroll += 1
             elif key in [ord('/'), ord('f'), ord('F')]:  # Start search
                 search_mode = True
                 search_query = ""
