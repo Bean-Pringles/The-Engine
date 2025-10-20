@@ -1,3 +1,5 @@
+Versions
+
 ## Rachet:
 
 Forge:
@@ -58,7 +60,10 @@ v0.5.0.0
 ## Framework
 v0.7.0.0
 
-## Version Naming;
+## Nim++
+v0.2.0.0
+
+## Version Naming:
 
 # Version 0.1 to 1.0
 
