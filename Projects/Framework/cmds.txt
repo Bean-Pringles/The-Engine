@@ -7,7 +7,7 @@ Names (engine_name.txt)
 ### Framework
 ## About Framework (framework_about.txt)
 
-### FLywheel
+### Flywheel
 About Flywheel (flywheel_about.txt)
 ## Commands (flywheel_commands.txt)
 
@@ -67,6 +67,9 @@ About Chassis (chassis_about.txt)
 ### Nim++
 About Nim++ (nim_about.txt)
 ## Changed Syntax (nim_changed.txt)
+
+### Toolbox
+## About Toolbox (toolbox_about.txt)
 
 ### Spring
 ## About Spring (spring_about.txt)
