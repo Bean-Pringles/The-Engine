@@ -78,3 +78,7 @@ https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/Framework/framewo
 ## Nim++
 Refactors nims syntax to give it semicolins, curly brackets, and tabs
 https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/Nim%2B%2B/preprocessor.nim
+
+## Toolbox
+The temp file manager
+https://github.com/Bean-Pringles/The-Engine/blob/main/Projects/Toolbox/toolbox.nim
