@@ -1,0 +1,10 @@
+About Toolbox
+
+Toolbox is a temp file manager to
+easily manage temp file, projects,
+and more.
+
+It is written in nim and is used 
+to backup, restore, delete, and
+generally manage temp files in
+projects.
