@@ -63,6 +63,9 @@ v0.7.0.0
 ## Nim++
 v0.2.0.0
 
+## Toolbox
+v0.3.0.0
+
 ## Version Naming:
 
 # Version 0.1 to 1.0
