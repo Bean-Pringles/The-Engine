@@ -123,3 +123,63 @@ Sets up a crank serer on your device
 Opens up the man pages to the specified page
 
 # flywheel man <page name>
+
+----- new ----- 
+
+Creats a new project
+
+# flywheel new <project name>
+
+----- add ----- 
+
+Adds a new ailias for a file
+
+# flywheel add <project name> <file> <ailias>
+
+----- resolve ----- 
+
+Deletes all the temp files
+
+# flywheel resolve <project name>
+
+---- list ----- 
+
+Prints all the files in the project
+
+# flywheel list <project name>
+
+----- view ----- 
+
+Opens up the file in a text editor
+
+# flywheel view <file name>
+
+----- remove ----- 
+
+Delets the file
+
+# flywheel remove <file ailias>
+
+----- delete ----- 
+
+Deletes the projects backups
+
+# flywheel delete <project name>
+
+----- rename ----- 
+
+Renames a project
+
+# flywheel rename <old project name> <new project name>
+
+----- backup ----- 
+
+Backups the ailias or project
+
+# flywheel backup <project name or ailias>
+
+----- restore ----- 
+
+Restores the ailias or project
+
+# flywheel restore <project name or ailias>
