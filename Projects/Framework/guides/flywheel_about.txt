@@ -1,0 +1,12 @@
+About Flywheel
+
+Flywheel is a command wrapper for
+The Engine ecosystem.
+It bundles all the commands under a 
+single one (flywheel). 
+The orginal Engine repo exclusive,
+it is made to unite all of the
+individual projects.
+
+    - Bean Pringles >:D 
+      https://github.com/Bean-Pringles

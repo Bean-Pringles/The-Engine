@@ -1,0 +1,206 @@
+About Commands
+
+----- alias -----
+
+Creates a command alias that can run 
+when you type an alias
+
+# alias listdirs ls
+# listdirs # Runs ls
+
+----- apps ----- 
+
+Has the arguemets of install or run an app.
+Install downloads the app and run runs
+the selected app.
+
+----- cat ----- 
+
+Prints a file to the terminal
+
+----- cd ----- 
+
+Navigates to a directory based on the given path.
+
+----- chmod ----- 
+
+Changes premission of a file or directory
+
+----- clear ----- 
+
+Clears the terminal screen
+
+----- cp ----- 
+
+Copys a file or directory
+
+----- curl ----- 
+
+Fetches a download from a url
+
+----- date ----- 
+
+Prints the date and time
+
+----- du ----- 
+
+Prints the size of a file
+
+----- file ----- 
+
+Gets the type of file
+
+# file test.py # Prints py
+
+----- git ----- 
+
+A homemade git client that can have the commands of:
+
+push:
+Commits code
+
+version:
+Gets the current version
+
+pull:
+Matches the repo to the current version
+
+restore:
+Restores a file to a current version
+
+clone:
+Downloads a repo from a url
+
+----- grep----- 
+
+Searches a file or output for something
+
+----- head ----- 
+
+Prints the top 10 lines of a file
+
+----- help ----- 
+
+Prints all available commands
+
+----- install ----- 
+
+Installs a command, can also have the argument 
+of "all" which installs every command
+
+----- ip ----- 
+
+Prints your ip
+
+----- ls ----- 
+
+Lists the subdirectories and files in the current dir
+
+----- mkdir ----- 
+
+Creates a directory
+
+----- mv ----- 
+
+Moves a file to a diffrent file
+
+----- notes ----- 
+
+Uses the notes client to either:
+
+add:
+Adds an item to the list
+
+done:
+Marks an item off the list
+
+list:
+Prints the list
+
+clear:
+Clears the list
+
+----- pwd ----- 
+
+Prints the current directory
+
+----- python ----- 
+
+Runs a python file
+
+----- rm ----- 
+
+Removes a file
+
+----- rmdir ----- 
+
+Removes a directory
+
+----- scan ----- 
+
+Scans the folder for any python imports
+
+----- server ----- 
+
+Sets up a python server
+
+----- skin ----- 
+
+Changes the skin of the terminal,
+default is "$ "
+
+----- sl ----- 
+
+Opens up a youtube video of trains
+
+----- spk ----- 
+
+Runs a spoke file
+
+----- stat ----- 
+
+Prints the statistics of a file
+
+----- tail ----- 
+
+Prints the last n lines of a file
+
+----- top ----- 
+
+Prints the system statistics
+
+----- touch ----- 
+
+Creates a file
+
+----- tree ----- 
+
+Prints the tree of the current directory and subdirectories
+
+----- txted ----- 
+
+Opens up the spoke editor of the specified file
+
+----- uninstall ----- 
+
+Uninstalls a command
+
+----- update ----- 
+
+Updates either the commands or the apps
+
+----- wc ----- 
+
+Counts the number of lines of a file
+
+----- wget ----- 
+
+Fetches a website from a url
+
+----- whoami ----- 
+
+Prints the current user's username
+
+----- xdg ----- 
+
+Opens a website

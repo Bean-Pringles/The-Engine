@@ -1,0 +1,28 @@
+Random Commands
+
+Theses commands add random aspects to the spoke language.
+
+----- Random -----
+
+Random takes the arguements of the minimum and max number,
+as well as the varible to assign it to.
+It also has the optional decleration of loud.
+
+The minimum and maximum arguements must be stored in 
+parentheses and seperated with commas.
+
+# random (1, 10) x
+# print x # Prints a random number between 1 and 10
+#
+# random (1, 20) y loud # Prints y after being assigned
+
+----- Shuffle ------
+
+Shuffle shuffles the value in a list. 
+
+Takes the list to shuffle, optional silent\loud,
+and varible to store the result in.
+
+# list testList = ["Hello", ",", "World", "!"]
+# shuffle testList silent testListResult
+# print testListResult # Prints a random mix of testList

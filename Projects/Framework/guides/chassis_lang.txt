@@ -1,0 +1,437 @@
+Launguages
+
+Chassis has the following languages:
+
+8051 assembly
+
+Actionscript
+
+Ada
+
+Ada 83 95 2012
+
+Agda
+
+Algol
+
+Algol 60 68
+
+Algol w
+
+Angelscript
+
+Angular
+
+Ansible yaml
+
+Ansible yaml puppet dsl chef dsl saltstack dsl
+
+Apl
+
+Apt
+
+Arduino c wiring
+
+Arm thumb
+
+Assembly
+
+Assembly 6502 z80 8051 avr arm riscv msp430
+
+Astro
+
+Autohotkey
+
+Bash
+
+Bash zsh fish windows batch powershell cmd
+
+Bcpl
+
+Befunge funge98
+
+Befunge variants
+
+C
+
+C#
+
+C++
+
+Cadence
+
+Chef dsl
+
+Circleci yaml
+
+Clips
+
+Clojure
+
+Cloudformation json yaml
+
+Cobol
+
+Cobol 85 2002
+
+Crystal
+
+D
+
+Dart
+
+Dockerfile dsl
+
+Dockerfile kubernetes yaml helm charts
+
+Ebpf
+
+Ejs handlebars mustache
+
+Elixir
+
+Elm
+
+Embedded c misra c
+
+Erlang
+
+F#
+
+Fish
+
+Forth
+
+Forth swiftforth eforth
+
+Forth variants
+
+Fortran
+
+Fortran 66 77 90 2003 2018
+
+Gams ampl
+
+Gams ampl aimms
+
+Gcode
+
+Gdscript
+
+Github actions circleci yaml gitlab ci yaml
+
+Github actions yaml
+
+Glsl hlsl metal
+
+Glsl hlsl metal renderman vex houdini
+
+Go
+
+Golfscript
+
+Gpss
+
+Graphql
+
+Graphql sparql gremlin
+
+Groovy
+
+Haml slim
+
+Haskell
+
+Haxe
+
+Hiveql
+
+Houdini hscript vex
+
+Html
+
+Html css js
+
+Html css js ts
+
+Ibm360 assembly
+
+Icon
+
+Idris
+
+Intercal
+
+Jade pug
+
+Java
+
+Javascript
+
+Joss
+
+Jovial
+
+Js
+
+Json yaml toml xml
+
+Jsx tsx vue sfc
+
+Julia
+
+Karel
+
+Kdb q
+
+Kotlin
+
+Kotlin native
+
+Kubernetes yaml
+
+Labview
+
+Linq
+
+Linq dataframes dsls
+
+Liquid
+
+Lisp variants
+
+Logo turtle graphics
+
+Lua
+
+Lua love2d roblox defold
+
+Makefile cmake ninja
+
+Malbolge unshackled
+
+Maple
+
+Markdown multimarkdown pandoc
+
+Matlab octave
+
+Matlab octave scripting
+
+Max msp scripting
+
+Maxscript
+
+Mercury
+
+Michelson
+
+Ml variants
+
+Modelica
+
+Modelica dymola simulink
+
+Modula 2 oberon
+
+Modula modula2 oberon
+
+Move
+
+Mumps m
+
+Nextjs
+
+Nim
+
+Nunjucks
+
+Nuxtjs
+
+Objective c
+
+Ocaml
+
+Ook
+
+Ops5
+
+Pact
+
+Pdp11 assembly
+
+Perl
+
+Php
+
+Pico8 lua
+
+Pico8 tic80 lua
+
+Pig latin
+
+Pl sql
+
+Plc ladder logic structured text
+
+Pli
+
+Plutus
+
+Postscript
+
+Powershell
+
+Powershell core
+
+Processing
+
+Processing p5js openframeworks cinder
+
+Prolog
+
+Pug haml slim twig ejs nunjucks handlebars mustache liquid
+
+Puppet dsl
+
+Purescript
+
+Python
+
+Qml
+
+Qwik
+
+R
+
+R s stata sas jmp
+
+Rachet
+
+Racket
+
+React
+
+React vue angular svelte solid qwik astro
+
+Rebol red
+
+Renderman
+
+Renpy tyranoscript
+
+Rpg
+
+Rpl
+
+Ruby
+
+Rust
+
+Rust embedded
+
+Rust smart contract frameworks
+
+Saltstack dsl
+
+Sas
+
+Scala
+
+Scheme
+
+Scilab
+
+Shader languages
+
+Simula
+
+Simula 67
+
+Smalltalk
+
+Smalltalk variants
+
+Snobol4
+
+Snusp
+
+Solidity
+
+Solidjs
+
+Sparql
+
+Spice ltspice
+
+Spice ltspice ngspice
+
+Spoke
+
+Spss scripting
+
+Sql
+
+Stata
+
+Svelte
+
+Svelte solid qwik
+
+Swift
+
+Systemverilog
+
+T sql
+
+Tcl
+
+Terraform hcl
+
+Terraform hcl cloudformation json yaml pulumi
+
+Tex latex
+
+Tms320 dsp assembly
+
+Torquescript
+
+Touchdesigner python
+
+Twig
+
+Typescript
+
+Unary
+
+Unrealscript blueprints
+
+V
+
+Vax assembly
+
+Vb.net
+
+Vba
+
+Verilog
+
+Verilog a systemc ams
+
+Vhdl
+
+Vhdl verilog systemverilog verilog a systemc
+
+Vue
+
+Vyper
+
+Vyxal
+
+Windows batch
+
+Wolfram language
+
+Zig
+
+Zsh

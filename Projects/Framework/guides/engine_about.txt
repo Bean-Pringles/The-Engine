@@ -1,0 +1,27 @@
+About The Engine
+
+The Engine is an ecosystem written by Bean Pringles.
+It was made as a way for Bean Pringles to connect
+his projects, but without each one being 
+just another tool for a diffrent project.
+
+It was made with blood, sweat, lots of tears, 
+and even more ChatGBT tokens. 
+It has many days of work put into it,
+almost 20k lines of code, over 100 commits,
+88% python, 7% Rust, 2% Nim, and 
+totals more than 12MB in size.
+
+The main goal of the engine was to have
+an entire developer ecosystem in a single repository.
+This machine has been made by one man
+spending countless hours and Claude tokens
+to get it in this fully tested, working state.
+
+To be honest, this is like 80% AI,
+so do with that information as you wish.
+
+Let's see what you can make!
+
+    - Bean Pringles
+      https://github.com/Bean-Pringles

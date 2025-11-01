@@ -1,0 +1,13 @@
+About Chassis
+
+Chassis is a barebones boilerplate 
+creator that has roughly 200 languages.
+
+It ues the barebones directory layout
+and an optional main function.
+
+It has support for almost any language
+you can think of.
+
+    - Bean Pringles >:D 
+      https://github.com/Bean-Pringles

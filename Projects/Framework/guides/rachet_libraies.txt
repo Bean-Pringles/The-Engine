@@ -1,0 +1,14 @@
+List of Libraries
+
+1. iso
+
+2. bin
+
+3. elf
+
+4. asm 
+
+5. exe
+
+These libraies can be used to specify what file
+the compiler compiles it into.

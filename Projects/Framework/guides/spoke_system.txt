@@ -1,0 +1,44 @@
+System Commands
+
+System commands are a way to interact with
+the host operating system.
+
+----- Save -----
+
+Save saves the given data to the selected file.
+It always appends and can save varibles,
+it takes the arguements of filename and content.
+
+# let x = 5
+# save data.txt ("X Value: ")
+# save data.txt x 
+# # Saves:
+# # X Value:
+# # 5
+
+----- Read -----
+
+The read command can read from a full file
+or from a single line.
+
+The read command can either print or store the
+selected line or file in a varible.
+It does not print when there is a given varible.
+
+# read test.txt 1 x
+# print x # Prints the first line
+# read test.txt # Prints the full file
+
+----- Run -----
+
+The run command runs the selceted command.
+There are some commands you can't run 
+and others that reuire confirmation.
+
+You can run with an output or without by 
+specifying "loud" as the ending arguement.
+
+# run ls loud # Prints the dirs
+# run cd C:\Users # Runs silently
+# print (Your home dir: )
+# run ls loud

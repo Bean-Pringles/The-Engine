@@ -1,0 +1,8 @@
+Time
+
+Takes the optional var name to store it to,
+if not given prints the time.
+
+# time timeVar 
+# print timeVar # Prints the time
+# time # Prints the time

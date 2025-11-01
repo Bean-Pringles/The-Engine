@@ -1,0 +1,124 @@
+Command Arguements
+
+alias:
+alias <name> <command>
+
+apps:
+app <command> <app>  
+
+cat:
+cat <exampleFile.txt>
+
+cd:
+cd <dir>
+
+chmod:
+chmod <permissions> <filename>
+
+clear:
+clear
+
+cp:
+cp <origin_file> <destanation>
+
+curl:
+curl <url>
+
+date:
+date
+
+du:
+du <path>
+
+file:
+file <exampleFile.py>
+
+git:
+git <push, version, pull, restore, clone>
+
+grep:
+grep <pattern> <filename (optional)>
+
+head:
+head <file>
+
+help:
+help
+
+install:
+install <command1> [<command2> ...] | install all
+
+ip:
+ip
+
+ls:
+ls
+
+mkdir:
+mkdir <dir_name>
+
+mv:
+mv <file1> <file2>
+
+notes:
+notes <add, done, list, clear>
+
+pwd:
+pwd
+
+python:
+python <file.py>
+
+rm:
+rm <file_name>
+
+rmdir:
+rmdir <dir_name>
+
+scan:
+scan <output.txt (optional)>
+
+server:
+Usage: server <port> [handler]
+
+skin:
+skin <new_skin>
+
+sl:
+sl
+
+spk:
+spk <file.spk>
+
+stat:
+stat <filename>
+
+tail:
+tail <file> [n]
+
+touch:
+touch <file_name>
+
+tree:
+tree
+
+txted:
+txted <filename.spk | folder>
+
+uninstall:
+uninstall <command1> [<command2> ...]
+
+update:
+update commands|apps
+
+wc:
+wc <file>
+
+wget:
+wget <url>
+
+whoami:
+whoami
+
+xdg:
+xdg <https://example.com>

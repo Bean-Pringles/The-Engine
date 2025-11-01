@@ -1,0 +1,14 @@
+About Crank
+
+Crank is a remote build client made for 
+an easy setup on a single board computer.
+
+Crank works through a server script
+and a client script.
+It transfers files over the internet,
+automatically compiles them,
+deletes the temp files, and
+sends the final iso back.
+
+    - Bean Pringles >:D 
+      https://github.com/Bean-Pringles

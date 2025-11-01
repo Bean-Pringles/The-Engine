@@ -1,0 +1,14 @@
+About Magnet
+
+Magnet is a torrent clone that can fetch
+optimized downloads through a special file type,
+a mgn file.
+
+Magnet uses the sha256 key to check if the file is
+the same as the download like. 
+It can also run the installer after downloading.
+
+Magnet can be used to both run and create mgn files.
+
+    - Bean Pringles
+      https://github.com/Bean-Pringles

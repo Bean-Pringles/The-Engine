@@ -1,0 +1,93 @@
+Math Commands
+
+The math commands do math within the 
+spoke launguage.
+
+----- Math ----- 
+
+The math command can do:
+
+addition
+
+subtraction
+
+multiplication
+
+division
+
+It can print the output and assign it to a varible.
+It takes the arguements of the expression, 
+silent or loud, and varible to assign to.
+
+# math 5 * 6 loud x # Prints 30 and assigns it to x
+# math x / 10 y # Doesn't print and makes y equal 3
+
+----- Round ----- 
+
+#round exampleVar 2 exampleVar2
+# or round exampleVar 2 loud
+
+The round command takes the varible to round, 
+decimal place to round too, and either loud or
+another varible to store it in.
+
+The round command takes the specified varible
+and rounds it to the given number of decimal points.
+
+# let pi = 3.14159
+# round pi 2 piRound
+# print piRound # Prints 3.14
+#
+# let e = 2.71828
+# round e 3 loud # Prunts 2.718
+
+----- Sqrt ----- 
+
+The sqrt command square roots the number
+and either prints it or stores it to a varible.
+
+It takes the arguements of the varible to square root
+and output varible (Could also have loud instead of output var)
+
+# let x = 9
+# let y = 25
+#
+# sqrt x z
+# print z # Prints 3
+#
+# sqrt y loud # Prints 5
+
+----- Mod ----- 
+
+Creates a varible based off of an operation on an old varible.
+
+It can use the operations of:
+
+abs
+
+floor
+
+ceiling 
+
+sin 
+
+cos 
+
+tan 
+
+asin 
+
+acos
+
+atan
+
+The command creates a varible like let, 
+but you wrap the modified varible in parentheses
+next to the selected command.
+
+# let x = -10
+# mod y = abs(x)
+# print y # Prints 10
+# 
+# mod z = cos(x)
+# print z # Prints -0.83907...

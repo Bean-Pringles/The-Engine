@@ -1,0 +1,11 @@
+About Nim++
+
+Nim++ changes nim to have a more
+C++ like syntax. It uses a precompiler 
+to change Nim++ code back into Nim code.
+
+The compiler is written in Nim and changes
+selected things in the Nim++ code into Nim code.
+
+    - Bean Pringles
+      https://github.com/Bean-Pringles

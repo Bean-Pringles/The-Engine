@@ -1,0 +1,30 @@
+Changed Syntax
+
+Nim++ changes multiple things from Nim including:
+
+----- Curly Brackets -----
+
+Curly brackets replace the double space indent
+into curly brackets like most other low level code.
+
+----- Semicolins -----
+
+While Nim++ doesn't require semicolins,
+the compiler automatically removes them.
+
+----- Echo to Print -----
+
+Nim++ changes the echo command to, 
+much like the python version of it,
+print and surronded by parentheses.
+
+------ Commas to Plus Signs -----
+
+Nim++ makes it instead of sperating 
+arguements in a print/echo statement 
+with a comma, you do it with a plus.
+
+----- Tabs -----
+
+Tabs are automatically removed
+and replaced with proper Nim synatx.

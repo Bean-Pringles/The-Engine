@@ -1,0 +1,21 @@
+Match Statements 
+
+Match statements are used as an easier way to find a case.
+They take the case and match it to it's value,
+so, for example, you input something that is equal to 1, 
+it would find 1 in the list of matches and run the 
+following code seperated by a comma.
+
+If you need more than one line of code,
+you can call a function and put your code inside the function.
+
+# use crate::iso
+# fn main() {
+#     let stringVar = "hello";
+#     
+#     match (stringVar) {
+#         "hello", print("You said hello!"); # Would print "You said hello!"
+#         "world", print("You said world!");
+#         "quit", print("Goodbye!");
+#     }
+# }

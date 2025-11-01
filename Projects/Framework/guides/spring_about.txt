@@ -1,0 +1,25 @@
+About Spring
+
+Spring is a browser with many features
+such as:
+
+History
+
+Bookmarks
+
+Settings
+
+Custom Search Engine
+
+Developer Tools
+
+Themes
+
+It uses PyQt5 and QtWebEngine as its
+rendering engines.
+
+Its goal was to unify every developer tool 
+you could possibly need under one ecosystem.
+
+    - Bean Pringles >:D 
+      https://github.com/Bean-Pringles

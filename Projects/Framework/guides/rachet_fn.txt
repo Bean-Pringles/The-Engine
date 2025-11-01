@@ -1,0 +1,30 @@
+Fn
+
+Fn makes a function with arguements of the function main
+and function arguements.
+
+Functions require being wrapped in curly brackets,
+starting at the last charecter of the first line, 
+and be on it's own line at the bottom.
+
+# fn main() {
+#     let x = 5;
+#     let y = 9;
+#
+#     let z = add(x, y); 
+# }
+# 
+# fn add(num1, num2) {
+#     let total = num1 + num2;
+#
+#     return total;
+# }
+
+Calling functions do not require fn, 
+that is just for declaring them,
+to call a function you simply put your function name
+next to parentheses with the arguements inside.
+
+Function arguements are seperated by commas.
+
+***Functions work much the same as Python functions***

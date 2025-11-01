@@ -1,0 +1,125 @@
+Commands
+
+----- compile ----- 
+
+Takes the arguements of a file
+and compiles that file through rachet
+
+# flywheel compile main.rx
+
+----- interpret ----- 
+
+Runs the given file through the
+rachet interpreter.
+
+# flywheel interpret main.rx
+
+----- compress -----
+
+Compresses the given txt file
+or rx file into a rxc file
+
+# flywheel compress main.rx
+
+----- uncompress -----
+
+Uncompresses a rxc file into a rx file.
+
+# flywheel uncompress main.rxc
+
+----- transform -----
+
+Transforms a rx file into a txt
+and vice versa.
+
+# flywheel transform main.txt
+
+----- fetch -----
+
+Fetchs the rachet ascii art
+
+# flywheel fetch
+
+----- run -----
+
+Runs a spoke file using the spoke interpreter
+
+# flywheel run main.spk
+
+----- edit -----
+
+Edits a spoke file in the spoke editor
+
+# flywheel edit main.spk
+
+----- record -----
+
+Opens the notes app
+
+# flywheel record
+
+----- install -----
+
+Apps:
+Installs a app for a spoke shell
+
+# flywheel install apps (apps to install)
+
+Axle:
+Installs a spoke shell command
+
+# flywheel install axle (commands to install)
+
+----- shell -----
+
+Runs the spoke shell
+
+# flywheel shell
+
+----- browser -----
+
+Opens the browser
+
+# flywheel browser
+
+----- valve -----
+
+Runs the homemade git command
+
+# flywheel valve (push, pull, etc)
+
+----- magnet -----
+
+Opens up magnet on the selcted file
+
+# flywheel magnet download.mgn
+
+----- connect ----- 
+
+Connects a device through crank
+
+# flywheel connect <ip address> <nickname>
+
+----- send -----  
+
+Sends a file to a crank server to compile
+
+# flywheel send <nickname> main.rx
+
+----- clear ----- 
+
+Clears the nickname list in crank
+
+# flywheel clear
+
+----- server ----- 
+
+Sets up a crank serer on your device
+
+# flywheel server
+
+----- man ----- 
+
+Opens up the man pages to the specified page
+
+# flywheel man <page name>

@@ -1,0 +1,20 @@
+About Forge
+
+Forge is an interpreter for rachet,
+it works exactly the same except each
+command has an alternate way of doing things.
+
+For example, the print command just calls
+the python print, not the vga buffer.
+
+Forge runs on top of another operating system
+and is not an independet operating System.
+
+It is used for quick prototyping
+and to get around compiling each time.
+
+It also includes all the features of
+the Core version of Rachet.
+
+    - Bean Pringles >:D 
+      https://github.com/Bean-Pringles

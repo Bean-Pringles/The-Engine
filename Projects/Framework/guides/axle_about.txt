@@ -1,0 +1,8 @@
+About Axle
+
+Axle is a shell made in python
+that has tight intergration with
+the spoke programming launguage.
+
+    - Bean Pringles
+      https://github.com/Bean-Pringles

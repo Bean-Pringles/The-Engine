@@ -1,0 +1,7 @@
+Clear 
+
+The clear command clears the terminal
+of any charecters in it.
+
+# print (Hello)
+# clear # You can no longer see Hello
