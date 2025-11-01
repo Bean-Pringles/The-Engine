@@ -61,6 +61,17 @@ Flywheel commands:
     clear
     server
     man
+    new
+    add
+    resolve
+    list
+    view
+    remove
+    delete
+    rename
+    backup
+    restore
+              
               """)
         sys.exit(1)
 
@@ -89,6 +100,13 @@ Flywheel commands:
     elif cmd == "server":
         runPythonScript(os.path.join(current_dir, "Crank", "crank_server.py"))
 
+    # ----------------------------------------
+    # Toolbox commands
+    # ----------------------------------------
+    elif cmd in ["new", "add", "resolve", "list", "view", "remove", "delete", "rename", "backup", "restore"]:
+        args_full = sys.argv[1:]
+        runExecutable(os.path.join(current_dir, "Toolbox", "toolbox.exe"), args_full)    
+    
     # ----------------------------------------
     # Spoke commands
     # ----------------------------------------
