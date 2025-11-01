@@ -1,9 +1,0 @@
-Sleep
-
-Takes the arguements of secounds
-and pauses the program for the
-given amount of line.
-
-# print(Waiting 5 secounds)
-# sleep 5
-# print(Waited 5 secounds)

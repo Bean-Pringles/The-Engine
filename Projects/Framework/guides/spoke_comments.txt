@@ -1,8 +1,0 @@
-Comments
-
-Spoke either uses the # or the @ for comments.
-Anything after the comments are ingnored by the interpreter.
-
-# let x = 3 # Makes x with a value of 3 
-# print(x * 3) @ Prints 9
-# # All comments above work.
